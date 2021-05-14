@@ -22,7 +22,7 @@
  <div class="col-8"> 	
 	
 <h1 class="m-3">User Management</h1>
-	<form id="formUser" name= "formUser" >	
+	<form id="formUser" name= "formUser">	
  
 Name : 
 <input id="name" name="name" type="text" 
@@ -60,7 +60,7 @@ confirm Password:
 	<br>
 	<div id="divUsersGrid">
 	<%
-		User userObj = new User(); 
+		 User userObj = new User(); 
 		 out.print(userObj.readUser()); 
 	%>
 </div>
